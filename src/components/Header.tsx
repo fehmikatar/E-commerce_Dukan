@@ -36,9 +36,7 @@ export function Header() {
       
       {/* Top bar */}
       <div className="bg-primary text-primary-foreground py-2 text-center text-sm">
-        <p className="font-body">
-          Livraison gratuite en Tunisie à partir de 200 DT | شحن مجاني في تونس ابتداءً من 200 دينار
-        </p>
+        
       </div>
 
       {/* Main header */}
