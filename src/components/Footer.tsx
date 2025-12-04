@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
-
 export function Footer() {
-  return (
-    <footer className="bg-tunisian-black text-tunisian-sand">
+  return <footer className="bg-tunisian-black text-tunisian-sand">
       {/* Decorative top border */}
       <div className="h-2 bg-gradient-to-r from-tunisian-gold via-primary to-tunisian-gold" />
       
@@ -11,8 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h2 className="font-display text-2xl font-bold text-tunisian-sand">DAR EL BLED</h2>
-            <p className="font-arabic text-tunisian-gold text-lg">دار البلاد</p>
+            <h2 className="font-display text-2xl font-bold text-tunisian-sand">DUKAN</h2>
+            <p className="font-arabic text-tunisian-gold text-lg">دكان</p>
             <p className="font-body text-tunisian-sand/70 text-sm leading-relaxed">
               Votre destination pour l'artisanat tunisien authentique. 
               Nous préservons les traditions en les adaptant au monde moderne.
@@ -116,6 +114,5 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
